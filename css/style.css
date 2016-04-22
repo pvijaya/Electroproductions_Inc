@@ -1,0 +1,387 @@
+body {
+	padding-top:40px;
+}
+
+h2 {
+	height:50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:28px;
+	text-align:center;
+	clear:both;
+}
+
+h3 {
+	font-size:19px;
+	text-align:center;
+}
+
+h4 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+li{
+	list-style: none;
+}
+
+.features .glyphicon {
+	font-size:5em;
+	color: #F89100;
+}
+
+.features {
+	height: 220px;
+}
+
+.hide_service {
+	display: none;
+}
+
+.cursor_style {
+	cursor: pointer;
+}
+
+/*Setting background color to header*/
+#header {
+	background-color: #333333;
+	border-color: #333333;
+}
+
+/*Setting color to the navbar brand*/
+.navbar-fixed-top .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-fixed-top .navbar-brand:hover {
+	color: #ffffff;
+}
+
+/*Setting color to the navbar menu items*/
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #F89100;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	color: #F89100;
+}
+
+/*Changing the size of glyphicons for small size screens*/
+@media(max-width: 768px) {
+  i {
+	  font-size:3em;
+  }
+
+  h3 {
+	  font-size:15px;
+	  font-weight:600;
+  }
+
+  h2 {
+	  font-size: 20px;
+  }
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 13px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2.5em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top{
+        padding: 10px 0;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+		font-size: 20px;
+    }
+
+	body {
+		padding-top:70px;
+	}
+}
+
+/* Grid Styling */
+#wrapper{
+	overflow: hidden;
+	width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagetile{
+	width: 20%;
+    padding-bottom: 20%;
+    margin: 1%;
+    color: #fff;
+    float: left;
+    position: relative;
+}
+
+.imageinside{
+	left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.imageinside img {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.imageinside .titleBox {
+	padding-top:15px;
+	background-color: #F89100;
+    position: absolute;
+    color: #fff;
+	font-size: 18px;
+	opacity:0.75;
+
+    height : 30%;
+    bottom : -30%;
+    width: 100%;
+    text-align :center;
+    display: block;
+    line-height: 25pt;
+}
+
+#wrapper .imagetile .imageinside:hover .titleBox{
+	-moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+/* pic*/
+.pic{
+	width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 26%;
+    margin-bottom: 10%;
+}
+
+/* contact from label style*/
+.contactLabels{
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+/* footer style */
+.footerStyle{
+	background-color:#101010;
+    opacity:0.8;
+    color: #FFFFFF;
+}
+
+.footerStyle p{
+	text-align:center;
+    margin-top:1%;
+}
+
+/* Background video styling*/
+.logoOnVideo{
+	position: absolute;
+    z-index:1;
+    top: 25%;
+    left:26%;
+}
+
+.vidLogo {
+	width: 65%;
+	height: 65%;
+}
+
+.abtLogo {
+	width: 65%;
+	height: 65%;
+}
+
+.videoContainer{
+	position: relative;
+    z-index: 0;
+}
+
+video {
+	width: 100%    !important;
+    opacity:0.3;
+}
+
+.videoFooter{
+	position: absolute;
+    z-index:1;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 18%;
+    background-color:#FFFFFF;
+}
+
+.videoFooter p{
+	margin-top:1%;
+    text-align: center;
+}
+
+.demoButton{
+	margin-top:1%;
+    text-align:center;
+}
+
+.demoButton a{
+	background-color:#F89112;
+    border-color:#F89112;
+    color:#ffffff;
+	font-size: 18px;
+}
+
+#portfolioPage{
+}
+
+#service, #portfolio1, #contact1 {
+	background-color: #D4D4D4;
+}
+
+#service11 {
+	background-color: #635B59;
+	color: #fff;
+}
+
+.section-wrapper {
+	margin-top: -50px;
+	padding-top: 60px;
+}
+
+.section-wrapper:first-child .section {
+	padding-top: 100px;
+}
+
+/* home wrapper */
+.section-wrapper-home {
+	margin-top: -50px;
+	padding-top: 45px;
+}
+
+.section-wrapper-home:first-child .section {
+	padding-top: 70px;
+}
+
+/*Social icons */
+.social-icon {
+    list-style: none outside none;
+    margin-top: 1%;
+	margin-bottom:1%;
+    padding: 0;
+    text-align: center;
+	float:right;
+}
+.social-icon ul{
+  margin-top:2 %;
+  
+}
+.social-icon > li {
+    display: inline-block;
+    margin: 3px;
+	
+}
+.social-icon a {
+    border: 3px solid #FFFFFF;
+    border-radius: 100px;
+    display: block;
+    height: 40px;
+    line-height: 34px;
+    text-align: center;
+    width: 40px;
+	color:#FFFFFF;
+}
+#footer p {
+    font-size: 13px;
+	text-align:center;
+	margin-top:1%;
+	margin-bottom:1%;
+	float:left;
+}
+footer{
+
+  background-color:#101010;
+    opacity:0.8;
+    color: #FFFFFF;
+}
+.social-icon a:hover{
+  opacity: 0.1;
+}
+
+/* contact details */
+.glyphicon-phone{
+  
+  font-size:1.5em;
+  color:#F89100;
+}
+.glyphicon-home{
+  font-size: 1.5em;
+  color:#F89100;
+}
+
+.contactDetails{
+ text-align:left;
+}
+
+.validate {
+	color: #F89100;
+	padding-left:80px;
+}
+
+#submitBtn {
+	color: white;
+}
+
+#submitBtn:hover{
+	background-color:#286090;
+}
+  /* Carousel base class */
+.carousel {
+  height: 250px;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 4;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 250px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 250px;
+}
+ /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.2;
+  }
